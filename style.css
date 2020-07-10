@@ -1,0 +1,54 @@
+html {
+  height: 100%;
+  font-family: sans-serif;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.container {
+  padding: 15px;
+  background-color: white;
+}
+
+.screen {
+  margin: 0;
+  background-color: black;
+  color: white;
+  font-size: 64px;
+  border-radius: 5px;
+  padding: 10px;
+
+  
+}
+
+.screen span {
+  display: inline-block;
+  width: 85px;
+  text-align: center;
+}
+
+.buttons {
+  display:flex;
+  margin: 10px -5px 0;
+}
+
+.buttons button {
+  flex: 1;
+  margin: 0 5px;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 20px;
+  border: none;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  outline: none;
+  cursor: pointer;
+}
+
